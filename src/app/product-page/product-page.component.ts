@@ -8,6 +8,8 @@ import { ProductDescriptionComponent } from '../product-description/product-desc
 })
 export class ProductPageComponent implements OnInit {
 
+  pdc : ProductDescriptionComponent;
+
   constructor() { }
 
   ngOnInit() {
